@@ -1,3 +1,68 @@
+
+@import url('https://fonts.googleapis.com/css?family=Lobster|Roboto|Source+Sans+Pro:900i');
+
+body{
+  background-image: url(../imagenes/fondo.jpg);
+  background-repeat: repeat-y;
+  background-size:cover;
+  background-attachment: fixed;
+
+}
+
 .margin-up {
   margin-top: 10px;
+}
+
+.margin-lados{
+  margin:15px;
+}
+
+.justificado{
+  text-align: justify;
+}
+
+p{
+  font-size: 20px;
+}
+.logo-estilo img{
+  border-radius: 10px;
+  margin: 10px;
+  width: 100%;
+}
+
+.nav-estilo{
+  padding: 15px;
+}
+
+.slogan{
+  font-size: 30px;
+  font-weight: bolder;
+}
+
+.icones {
+  font-size: 50px;
+  color: white;
+  opacity: 0.8;
+}
+
+.icones:hover {
+  opacity: 1;
+}
+.mostrar {
+  display: none;
+}
+@media screen and (max-width:993px) and (min-width:600px) {
+  .mostrar{
+    display:block;
+  }
+}
+
+@media screen and (max-device-width:993px) and (min-device-width:600px) {
+  .mostrar{
+    display: block;
+  }
+}
+
+.ancho-100{
+  width: 100%;
 }
