@@ -1,5 +1,6 @@
 
 @import url('https://fonts.googleapis.com/css?family=Lobster|Roboto|Source+Sans+Pro:900i');
+@import url('https://fonts.googleapis.com/css?family=Indie+Flower|Pacifico');
 
 body{
   background-image: url(../imagenes/fondo.jpg);
@@ -33,10 +34,24 @@ p{
 .nav-estilo{
   padding: 15px;
 }
+.menu-chico a {
+  background-color: RGB(0 , 0, 255, 0.5);
+  padding: 5px;
+}
+
+.menu-chico i {
+  color: white;
+  text-align: center;
+}
 
 .slogan{
-  font-size: 30px;
+  font-size: 20px;
   font-weight: bolder;
+  font-family: 'Pacifico', cursive;
+  /* background: rgba(200, 200, 200, 0.5); */
+  padding: 10px;
+  border-radius: 10px;
+  text-decoration: underline;
 }
 
 .icones {
@@ -65,4 +80,8 @@ p{
 
 .ancho-100{
   width: 100%;
+}
+
+.boton-menu-posicion {
+  float:right;
 }

@@ -5,8 +5,8 @@
     <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1.0">
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link rel="stylesheet" href="css/materialize.css" type="text/css" media="screen, projection">
-    <link rel="stylesheet" href="/css/estilospropios.css">
-    <link rel="stylesheet" href="/css/turismo.css">
+    <link rel="stylesheet" href="css/estilospropios.css">
+    <link rel="stylesheet" href="css/turismo.css">
     <title>Valle Grande| San Rafael </title>
   </head>
   <body>
@@ -21,13 +21,19 @@
           <a class="waves-effect waves-light btn z-depth-2"><i class="material-icons left">start</i>button</a>
           <a class="waves-effect waves-light btn z-depth-2"><i class="material-icons left">chat_bubble</i>Recomendaciones</a>
         </div>
-        <div class="right nav-estilo mostrar">
+        <div class="right nav-estilo hide-on-large-only hide-on-small-only">
           <a class="waves-effect waves-light btn z-depth-2"><i class="material-icons left">home</i></a>
           <a class="waves-effect waves-light btn z-depth-2"><i class="material-icons left">place</i></a>
           <a class="waves-effect waves-light btn z-depth-2"><i class="material-icons left">start</i></a>
           <a class="waves-effect waves-light btn z-depth-2"><i class="material-icons left">chat_bubble</i></a>
         </div>
-        <div class="fixed-action-btn vertical click-to-toggle hide-on-med-and-up">
+        <div class="right nav-estilo hide-on-large-only hide-on-med-and-up menu-chico">
+          <a class="waves-effect waves-light btn-small hoverable z-depth-2"><i class="material-icons left ">home</i></a>
+          <a class="waves-effect waves-light btn-small hoverable z-depth-2"><i class="material-icons left ">place</i></a>
+          <a class="waves-effect waves-light btn-small hoverable z-depth-2"><i class="material-icons left ">start</i></a>
+          <a class="waves-effect waves-light btn-small hoverable z-depth-2"><i class="material-icons left ">chat_bubble</i></a>
+        </div>
+        <!-- <div class="fixed-action-btn vertical click-to-toggle hide-on-med-and-up boton-menu-posicion">
           <a class="btn-floating btn-large red">
             <i class="material-icons">menu</i>
           </a>
@@ -37,13 +43,10 @@
           <li><a class="btn-floating red lighten-1"><i class="material-icons">star</i></a></li>
           <li><a class="btn-floating red lighten-1"><i class="material-icons">chat_bubble</i></a></li>
         </ul>
+      </div> -->
       </div>
-      </div>
-        <div class="col s12 m8 l9 black-text fluid-text hide-on-small-only" style="botton:0px"><!--Slogan-->
-          <p class="slogan" style="font-family: 'Lobster', cursive;">Creando mi propio camino</p>
-        </div>
-        <div class="col s12 m8 l9 black-text fluid-text hide-on-med-and-up" style="botton:0px"><!--Slogan-->
-          <p class="slogan" style="font-family: 'Lobster', cursive;">Creando mi propio camino</p>
+        <div class="col s6 m8 l9 black-text fluid-text" style="botton:0px"><!--Slogan-->
+          <p class="slogan">Creando mi propio camino</p>
         </div>
       </div>
 
@@ -55,7 +58,7 @@
         <a href="#"> <span class="icon-instagram-filled icones"><span></a>
         <a href="#"> <span class="icon-twitter-squared icones"><span></a>
         <a href="#"> <span class="icon-pinterest-squared icones"><span></a>
-        <a href="#"> <span class=""><span></a>
+        <a href="#"> <span class="icon-youtube-squared icones"><span></a>
       </div>
       <div class="col s12 l11">
         <div class="col s12 m4 >">
@@ -104,7 +107,7 @@
                <div class="input-field col s12 m6">
                  <i class="material-icons prefix">email</i>
                  <input type="email" id="email" class="validate">
-                 <label for="contraseña" data-success="Correcto" data-error="Debes completar este campo" class=" white-text">Email</label>
+                 <label for="contraseña" data-success="Correcto" data-error="Debes completar este campo" data-success="right" class=" white-text">Email</label>
                </div>
                <div class="input-field col s12 m6">
                  <i class="material-icons prefix">vpn_key</i>
@@ -115,6 +118,11 @@
                  <i class="material-icons prefix">chat_bubble_outline</i>
                  <textarea type="texto" id="texto" class="materialize-textarea"></textarea>
                  <label for="texto" class="white-text">Comentario</label>
+               </div>
+               <div class="col s12 center-align ">
+                 <button class="btn waves-effect waves-light white blue-text z-depth-3 " type="submit" name="action">Enviar
+                   <i class="material-icons right">send</i>
+                 </button>
                </div>
             </div>
           </div>
